@@ -7,8 +7,9 @@ Figure 1: Overview of the pipeline for Wild Dog Detection and Segmentation.
 Installation Requirements
 
 This pipeline requires torch, ultralytics, and dependencies for SAMv2.
-
-<pre> ```pip install torch torchvision
+The tools used in this process can be installed with:
+<pre> ```
+pip install torch torchvision
 pip install ultralytics
 pip install opencv-python matplotlib numpy
 git clone https://github.com/realbarfbag/Wild-Dog-SamV2-YOLO.git
