@@ -8,14 +8,12 @@ Installation Requirements
 
 This pipeline requires torch, ultralytics, and dependencies for SAMv2.
 
-Install dependencies with: 
-pip install torch torchvision
+<pre> ```pip install torch torchvision
 pip install ultralytics
 pip install opencv-python matplotlib numpy
-Clone the repository:
 git clone https://github.com/realbarfbag/Wild-Dog-SamV2-YOLO.git
 cd Wild-Dog-SamV2-YOLO
-
+``` </pre>
 
 
 ![Image](https://github.com/user-attachments/assets/98996799-7324-4404-be01-94ab23eb373c)
