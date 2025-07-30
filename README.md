@@ -19,15 +19,13 @@ cd Wild-Dog-SamV2-YOLO
 
 Step 1: Data Collection at The Wilds (2024)
 
-The drone videos used in this pipeline were collected in Spring 2024 at The Wilds, a conservation facility in Ohio. Flights were conducted as part of a camera trap monitoring and behavioral observation effort targeting African painted dogs 
+The camera trap videos used in this pipeline were collected in Spring 2024 at The Wilds, a conservation facility in Ohio. Flights were conducted as part of a camera trap monitoring and behavioral observation effort targeting African painted dogs 
 ![Image](https://github.com/user-attachments/assets/98996799-7324-4404-be01-94ab23eb373c)
 
 
 Step 2: Preprocessing Video Data
 
 The raw .mp4 video was processed as follows:
-2A. Frame Extraction
-
 We used ffmpeg to extract frames from the video for processing:
 <pre> ```
 ffmpeg -i wild_dogs_video.mp4 -qscale:v 2 temp_frames_subset_128/%05d.jpg
