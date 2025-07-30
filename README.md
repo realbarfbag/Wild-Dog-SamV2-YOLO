@@ -22,6 +22,9 @@ Step 1: Data Collection at The Wilds (2024)
 The camera trap videos used in this pipeline were collected in Spring 2024 at The Wilds, a conservation facility in Ohio. Flights were conducted as part of a camera trap monitoring and behavioral observation effort targeting African painted dogs 
 ![Image](https://github.com/user-attachments/assets/98996799-7324-4404-be01-94ab23eb373c)
 
+ Figure 2: Image of segmented and bounded dogs
+
+
 
 Step 2: Preprocessing Video Data
 
