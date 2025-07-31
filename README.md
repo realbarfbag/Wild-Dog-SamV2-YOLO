@@ -66,7 +66,7 @@ python convert_json_to_yolo.py \
 ``` </pre>
 
 The custom model was trained with the following command:
-    <pre> ```
+<pre> ```
 python convert_json_to_yolo.py \
     yolo detect train \
     data=dog_dataset.yaml \
