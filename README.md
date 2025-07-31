@@ -80,13 +80,15 @@ This generated a trained model saved as: runs/detect/dog_train/weights/best.pt
 
  Step 4: Segmentation with SAMv2
  Once bounding boxes were finalized, the SAMv2 (Segment Anything Model) was used to generate precise pixel-level masks of detected wild dogs:
- <pre> ```
+
+<pre> ```
 python run_samv2.py \
     --image_dir temp_frames_subset_128 \
     --bbox_json dog_boxes.json \
     --sam_model sam2.1_b.pt \
     --output_dir sam_outputs_custom
 ``` </pre>
+
 Outputs include:
     Segmented masks,
     Overlaid annotated frames,
